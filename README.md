@@ -37,5 +37,8 @@ c++ -O3 -Wall -shared -std=c++11 -fPIC $(python3 -m pybind11 --includes) dragon.
 ```bash
 Python3 fractal_teste.py
 ```
-
+### Executando o programa utilizando Makefile
+```bash
+make teste
+```
 [⬆ Voltar ao topo](#nome-do-projeto)<br>
